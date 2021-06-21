@@ -1,6 +1,6 @@
 workspace(name = "simple_repository_rule")
 
-load("//bazel:deps.bzl", "hello_repo")
+load(":deps.bzl", "hello_repo")
 
 hello_repo(
 	name="hello",
